@@ -4,7 +4,7 @@ import React, {
 } from 'react';
 import './App.css';
 
-const repo = "https://github.com/adueck/pwa-install-demo";
+const repo = "https://freshteacher.software";
 let deferredPrompt;
 
 function App() {
@@ -46,14 +46,14 @@ function App() {
         <
         header className = "App-header" >
         <
-        h2 > Install Demo < /h2> {
+        h2 > Fresh Teacher's App < /h2> {
             installable &&
                 <
                 button className = "install-button"
             onClick = {
                     handleInstallClick
                 } >
-                INSTALL ME <
+                INSTALL THE FRESH APP <
                 /button>
         } <
         p >
@@ -61,7 +61,7 @@ function App() {
         a href = {
             repo
         }
-        className = "App-link" > View source on GitHub < /a> <
+        className = "App-link" > Go to Fresh Teacher's Library < /a> <
         /p> <
         /header> <
         /div>

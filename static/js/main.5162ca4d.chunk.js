@@ -28,7 +28,7 @@
                         children: Object(i.jsxs)("header", {
                             className: "App-header",
                             children: [Object(i.jsx)("h2", {
-                                children: "Install Demo"
+                                children: "Fresh Teacher's Technologies 📚"
                             }), t && Object(i.jsx)("button", {
                                 className: "install-button",
                                 onClick: function(e) {
@@ -36,12 +36,12 @@
                                         "accepted" === e.outcome ? console.log("User accepted the install prompt") : console.log("User dismissed the install prompt")
                                     }))
                                 },
-                                children: "INSTALL ME"
+                                children: "INSTALL THE FRESH APP"
                             }), Object(i.jsx)("p", {
                                 children: Object(i.jsx)("a", {
-                                    href: "https://github.com/adueck/pwa-install-demo",
+                                    href: "https://freshteacher.software",
                                     className: "App-link",
-                                    children: "View source on GitHub"
+                                    children: "Continue to Fresh Teacher's e-Library"
                                 })
                             })]
                         })
